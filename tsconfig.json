@@ -1,0 +1,44 @@
+{
+  "include": ["src"],
+  "compilerOptions": {
+    "outDir": "lib",
+    "rootDir": "src",
+    "baseUrl": "src",
+
+    
+    "allowJs": true,
+    "allowUnusedLabels": false,
+    "allowSyntheticDefaultImports": true,
+    "declaration": true,
+    "declarationMap": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": false,
+    "importHelpers": true,
+    "jsx": "react-jsx",
+    "lib": [
+      "dom",
+      "es2021"
+    ],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noEmit": false,
+    "noEmitHelpers": false,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "pretty": true,
+    "removeComments": false,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strict": true,
+    "stripInternal": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": true,
+    "target": "esnext"
+  }
+}
