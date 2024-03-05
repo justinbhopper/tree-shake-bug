@@ -18,7 +18,10 @@ export default defineConfig(config => {
         output: {
           assetFileNames: 'assets/[name][extname]',
           entryFileNames: '[name].js',
-        }
+        },
+        external: [
+          /@blueprintjs\/icons\/lib\/esm\/iconLoader/,
+        ]
       }
     },
     define: {
